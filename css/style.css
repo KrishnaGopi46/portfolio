@@ -1,0 +1,301 @@
+/*.............................header css starts.........................*/
+#hed .navbar{
+	background:#fff;
+}
+#hed .navbar-brand{
+	font-size:2.5rem;
+	font-family: "Kaushan Script", cursive;
+	color:#7a6960
+}
+#hed .active{
+	color: #eb5d1e !important;
+	font-weight:600;
+}
+#hed .active:hover{
+	color: #eb5d1e !important;
+	font-weight:600;
+}
+#hed .nav-name{
+    color: #000;
+	font-weight:600;
+}
+#hed .nav-name:hover{
+	color:#eb5d1e ;
+}
+#hed .nav-link{
+	color:#000;
+}
+#hed .nav-link:hover{
+	color:#eb5d1e ;
+}
+#hed span{
+	color:white;
+}
+
+@media(min-width:360px){
+	#hed span{
+		display:flex;
+		justify-content:center;
+	}
+}
+/*.........................header css ends................................*/
+#ban{
+	background: url(../image/gopi.jpg) no-repeat center center;
+    background-size: cover;
+    vertical-align: middle;
+	height:100vh;
+	margin-top:3%;
+	position:relative;
+}
+#ban .overlay{
+	
+    background: linear-gradient(to right,#0575E6,#00F260);
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+#ban h1{
+	font-size:3rem;
+	font-weight:700;
+	line-height:1.2;
+	color:#4e4039;
+	z-index:997;
+}
+#ban h2{
+	font-family: "Kaushan Script", cursive;
+	font-size:1.3rem;
+	font-weight:600;
+	color:#4e4039;
+	z-index:997;
+}
+.ban-icon a{
+	z-index:997;
+	font-size:1.6rem;
+	color: #a1a9b0;
+}
+.ban-icon a:hover{
+	color: #fff;
+}
+@media(min-width:360px){
+#ban{
+	height:80vh;
+	width:100%;
+}	
+#ban .hed-content1{
+	margin-top:10rem;
+}
+} 
+
+@media(min-width:760px){
+#ban h1{
+	font-size:4.5rem;
+	font-weight:700;
+	line-height:1.2;
+} 
+#ban h2{
+	font-size:1.6rem;
+	font-weight:600;
+	
+}
+#ban{
+	height:90vh;
+}	
+}
+
+@media(min-width:1020px){
+
+#ban h1{
+	font-size:5rem;
+	font-weight:700;
+	line-height:;
+}
+#ban h2{
+	font-size:1.3rem;
+	font-weight:400;
+} 
+#ban{
+	height:100vh;
+}	
+}
+/*..............about section.....................*/
+.about{
+	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+.section-title{
+	position:relative;
+	padding:30px 0;
+}
+.section-title span {
+    position: absolute;
+    top: 30px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height:0;
+}
+.section-title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #3b434a;
+    position: relative;
+}
+.about a{
+	background-color: #0d6efd;
+    width: 150px;
+    border-radius: 30px 0 60px 30px;
+    color: #fff;
+    padding: 8px 20px;
+	border:none;
+}
+.about a:hover{
+	background-color:orange;
+	border-color:orange;
+}
+@media(min-width:720px){
+	.section-title span{
+		font-size:4rem;
+	}
+	.section-title h2{
+		font-size:2.5rem;
+	}
+}
+@media(min-width:1020px){
+	.section-title span{
+		font-size:4rem;
+	}
+	.section-title h2{
+		font-size:2.5rem;
+	}
+}
+#abt .row p{
+	font-weight: 500;
+    color: #ab9d95;
+	text-indent:7rem;
+	text-align:justify;
+	margin-bottom:2rem;
+}
+#abt li{
+	margin-bottom: 20px;
+    align-items: center;
+}
+#abt .bi{
+	color: #ffb727;
+}
+
+
+
+/*...............................skils section...........................*/
+.skils{
+	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+.skils img:hover{
+	transform:scale(1.1);
+}
+.skils img{
+	border-radius:50% !important;
+}
+
+/*......................................resume section...........................*/
+.resume{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+.resume-title{
+	color: #3b434a;
+}
+.resume h1{
+	color:#eb5d1e;
+}
+.res-btn{
+	background-color:orange;
+	width:150px;
+	border-radius:30px 0 60px 30px;
+	color:#fff;
+	padding:8px 20px;
+}
+#res .resume-item p{
+	text-indent:4rem;
+}
+.res-btn:hover{
+	background-color: #eb5d1e;
+    border-color: #eb5d1e;
+}
+
+/*......................................portfolio section...........................*/
+.port{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+.port h3{
+	color:#eb5d1e;
+	text-shadow;
+}
+.port a{
+	border-radius:2rem;
+}
+.port a:hover{
+	background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.html-img{
+	overflow:hidden;
+}
+.port img:hover{
+	transform:scale(1.1);
+}
+
+/*..................................contact section.....................................*/
+.contact{
+	  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+	  padding:2rem 0;
+}
+.con-icon{
+	height: 65px;
+    width: 65px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border: 3px dotted #0078ff;
+    align-items: center;
+    display: flex;
+	color:#000;
+}
+.con-icon:hover{
+	border:2px dotted #000;
+	color:#0078ff;
+}
+.contact h4{
+	margin-top:1rem;
+	color:#eb5d1e;
+	font-weight:700;
+	font-size:1.2rem;
+}
+.contact h4:hover{
+	color:#0078ff;
+}
+.contact p{
+	color:#ab9d95;
+	margin-top:1rem;
+	font-size:1.2rem;
+}
+/*..........................................footer2..............................*/
+.footersec{
+    background-color:#41464b;
+	padding:0.5rem;
+}
+.credits p{
+	color:#fff;
+}
+.credits span{
+	color:#eb5d1e;
+}
+/*.........................end.............................................*/
+
+
