@@ -41,22 +41,30 @@
 /*.........................header css ends................................*/
 #ban{
 	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-    background-size: cover;
-    vertical-align: middle;
-	height:100vh;
-	margin-top:3%;
-	position:relative;
 }
-#ban .overlay{
-	
-    /*background: linear-gradient(to right,#0575E6,#00F260);*/
-    opacity: 0.8;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
+.ban-icon a{
+	z-index:997;
+	font-size:1.5rem;
+	color: #a1a9b0;
+}
+.ban-icon a:hover{
+	color: #fff;
+}
+#ban .myimg img{
+	background-image: radial-gradient(circle, #1fd9ee, #43cbcf42,white);
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 30%;
+    animation-name: example2;
+    animation-duration: 1s;
+	border: 10px solid rgb(204 225 229 / 67%);
+}
+@media(min-width:360px){
+#ban .myimg {
+	padding: 10% 10% 0 10%;
+	padding-bottom:2rem;
+}
+#ban {
+	padding-top:30%;	
 }
 #ban h1{
 	font-size:3rem;
@@ -72,49 +80,42 @@
 	color:#4e4039;
 	z-index:997;
 }
-.ban-icon a{
-	z-index:997;
-	font-size:1.6rem;
-	color: #a1a9b0;
-}
-.ban-icon a:hover{
-	color: #fff;
-}
-@media(min-width:360px){
-#ban{
-	height:80vh;
-	width:100%;
-}	
-#ban .hed-content1{
-	margin-top:10rem;
-}
 } 
 
 @media(min-width:760px){
+#ban {
+	padding-top:15%;
+	padding-bottom:2rem;
+}
+#ban .hed-content1{
+	margin-top:;
+}
+#ban .myimg {
+	padding: 10% 10% 0 10%;	
+}
 #ban h1{
-	font-size:4.5rem;
+	font-size:4rem;
 	font-weight:700;
 	line-height:1.2;
+
 } 
 #ban h2{
-	font-size:1.6rem;
+	font-size:1.1rem;
 	font-weight:600;
-	
 }
-#ban{
-	height:90vh;
-}	
 }
 
 @media(min-width:1020px){
-
+#ban {
+	padding-top:8%;	
+}
 #ban h1{
-	font-size:5rem;
+	font-size:4.5rem;
 	font-weight:700;
 	line-height:;
 }
 #ban h2{
-	font-size:1.3rem;
+	font-size:1.1rem;
 	font-weight:400;
 } 
 #ban{
@@ -199,7 +200,7 @@
 	transform:scale(1.1);
 }
 #abt img{
-	border-radius:50% 0 50% 0;
+	border-radius:15%;
 	
 }
 
