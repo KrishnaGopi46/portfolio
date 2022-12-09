@@ -156,8 +156,8 @@
 	border:none;
 }
 .about a:hover{
-	background-color:orange;
-	border-color:orange;
+	background-color:#0d6efdb5;
+	border-color:#0d6efdb5;
 }
 @media(min-width:720px){
 	.section-title span{
@@ -239,6 +239,9 @@
 }
 .port a{
 	border-radius:2rem;
+	background: #1fd9ee;
+	border-color: #1fd9ee;
+	color:#fff;
 }
 .port a:hover{
 	background-color: #0d6efd;
@@ -249,6 +252,9 @@
 }
 .port img:hover{
 	transform:scale(1.1);
+}
+.text-body{
+	color:#fff;
 }
 
 /*..................................contact section.....................................*/
