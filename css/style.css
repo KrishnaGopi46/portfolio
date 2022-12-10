@@ -208,24 +208,18 @@
 .skill-wh{
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
+.web{
+	/*background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);*/
+}
 .web:hover{
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #39d8ea99;
+}
+.card{
+	border:1px solid red;
 }
 .web:hover i{
     color: rgb(138, 134, 134);
 }
-.html{
-    height: 15rem;
-    border: 1px solid #ccc;
-}
-.skil i{
-      font-size: 1.9rem;
-}
-.res img{
-    border-radius:10%;
-}
-
-
 /*......................................portfolio section...........................*/
 .port{
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
