@@ -205,29 +205,26 @@
 }
 
 /*......................................resume section...........................*/
-.resume{
+.skill-wh{
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
-.resume-title{
-	color: #3b434a;
+.web:hover{
+    box-shadow: 0 0 10px black;
 }
-.resume h1{
-	color:#eb5d1e;
+.web:hover i{
+    color: rgb(138, 134, 134);
 }
-.res-btn{
-	background-color:orange;
-	width:150px;
-	border-radius:30px 0 60px 30px;
-	color:#fff;
-	padding:8px 20px;
+.html{
+    height: 15rem;
+    border: 1px solid #ccc;
 }
-#res .resume-item p{
-	text-indent:4rem;
+.skil i{
+      font-size: 1.9rem;
 }
-.res-btn:hover{
-	background-color: #eb5d1e;
-    border-color: #eb5d1e;
+.res img{
+    border-radius:10%;
 }
+
 
 /*......................................portfolio section...........................*/
 .port{
