@@ -204,8 +204,8 @@
 	
 }
 
-/*......................................resume section...........................*/
-.skill-wh{
+/*......................................service section...........................*/
+.service{
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 .web{
@@ -219,6 +219,13 @@
 }
 .web:hover i{
     color: rgb(138, 134, 134);
+}
+.web i{
+	color:#1fd9ee;
+}
+.web p{
+	font-weight: 500;
+    color: #ab9d95;
 }
 /*......................................portfolio section...........................*/
 .port{
