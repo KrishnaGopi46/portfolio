@@ -41,6 +41,7 @@
 /*.........................header css ends................................*/
 #ban{
 	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+	padding-top:20%;	
 }
 .ban-icon a{
 	z-index:997;
@@ -63,9 +64,7 @@
 	padding: 10% 10% 0 10%;
 	padding-bottom:2rem;
 }
-#ban {
-	padding-top:30%;	
-}
+
 #ban h1{
 	font-size:3rem;
 	font-weight:700;
@@ -157,8 +156,9 @@
 	border:none;
 }
 .about a:hover{
-	background-color: #0d6efd;
-    border-color: #0d6efd;
+	background-color:#1fd9eecc;
+    border-color:#1fd9eecc;
+	color:#fff;
 }
 @media(min-width:720px){
 	.section-title span{
@@ -243,8 +243,9 @@
 	color:#fff;
 }
 .port a:hover{
-	background-color: #0d6efd;
-    border-color: #0d6efd;
+	background-color:#1fd9eecc;
+    border-color:#1fd9eecc;
+	color:#fff;
 }
 .html-img{
 	overflow:hidden;
@@ -255,7 +256,6 @@
 .text-body{
 	color:#fff;
 }
-
 /*..................................contact section.....................................*/
 .contact{
 	  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
@@ -298,6 +298,7 @@
 	padding:0.5rem;
 }
 .credits p{
+	margin-bottom:0;
 	color:#fff;
 }
 .credits span{
