@@ -146,16 +146,18 @@
     color: #3b434a;
     position: relative;
 }
-.about a{
+.res-but a{
+	text-decoration:none;
 	background: #1fd9ee;
 	border-color: #1fd9ee;
     width: 150px;
-    border-radius: 30px 0 60px 30px;
+    border-radius: 30px 30px 30px 30px;
     color: #fff;
-    padding: 8px 20px;
+    padding: 10px 20px;
 	border:none;
 }
-.about a:hover{
+
+.res-but a:hover{
 	background-color:#1fd9eecc;
     border-color:#1fd9eecc;
 	color:#fff;
@@ -236,17 +238,6 @@
 	color:#eb5d1e;
 	text-shadow;
 }
-.port a{
-	border-radius:2rem;
-	background: #1fd9ee;
-	border-color: #1fd9ee;
-	color:#fff;
-}
-.port a:hover{
-	background-color:#1fd9eecc;
-    border-color:#1fd9eecc;
-	color:#fff;
-}
 .html-img{
 	overflow:hidden;
 }
@@ -269,14 +260,14 @@
     margin: 0 auto;
     text-align: center;
     justify-content: center;
-    border: 3px dotted #0078ff;
+    border: 3px dotted #1fd9ee;
     align-items: center;
     display: flex;
 	color:#000;
 }
 .con-icon:hover{
 	border:2px dotted #000;
-	color:#0078ff;
+	color:#1fd9ee;
 }
 .contact h4{
 	margin-top:1rem;
@@ -285,7 +276,7 @@
 	font-size:1.2rem;
 }
 .contact h4:hover{
-	color:#0078ff;
+	color:#1fd9ee;
 }
 .contact p{
 	color:#ab9d95;
