@@ -123,6 +123,8 @@
 }
 /*..............about section.....................*/
 .about{
+	 padding-top:5rem;
+	 padding-bottom:1rem;
 	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 .section-title{
@@ -162,22 +164,6 @@
     border-color:#1fd9eecc;
 	color:#fff;
 }
-@media(min-width:720px){
-	.section-title span{
-		font-size:4rem;
-	}
-	.section-title h2{
-		font-size:2.5rem;
-	}
-}
-@media(min-width:1020px){
-	.section-title span{
-		font-size:4rem;
-	}
-	.section-title h2{
-		font-size:2.5rem;
-	}
-}
 #abt .row p{
 	font-weight: 500;
     color: #ab9d95;
@@ -193,10 +179,25 @@
 	color: #ffb727;
 }
 
-
-
+@media(min-width:720px){
+	.section-title span{
+		font-size:4rem;
+	}
+	.section-title h2{
+		font-size:2.5rem;
+	}
+}
+@media(min-width:1020px){
+.section-title span{
+	font-size:4rem;
+}
+.section-title h2{
+	font-size:2.5rem;
+}
+}
 /*...............................skils section...........................*/
 .skils{
+	 padding:5rem 1rem;
 	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 .skils img:hover{
@@ -209,10 +210,9 @@
 
 /*......................................service section...........................*/
 .service{
-    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-}
-.web{
-	/*background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);*/
+     padding-top:5rem;
+	 padding-bottom:1rem;
+	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 .web:hover{
     box-shadow: 0 0 10px #39d8ea99;
@@ -233,6 +233,8 @@
 /*......................................portfolio section...........................*/
 .port{
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+	padding-top:5rem;
+	padding-bottom:2rem;
 }
 .port h3{
 	color:#eb5d1e;
@@ -247,10 +249,13 @@
 .text-body{
 	color:#fff;
 }
+.project{
+	margin-bottom:2rem;
+}
 /*..................................contact section.....................................*/
 .contact{
 	  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-	  padding:2rem 0;
+	  padding:5rem 3rem;
 }
 .con-icon{
 	height: 65px;
