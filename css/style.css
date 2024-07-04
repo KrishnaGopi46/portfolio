@@ -7,16 +7,19 @@
 	font-family: "Kaushan Script", cursive;
 	color:#7a6960
 }
-#hed .active{
+/* #hed .active{
 	color: #1fd9ee !important;
 	font-weight:600;
 }
 #hed .active:hover{
 	color: #1fd9ee !important;
 	font-weight:600;
+} */
+.active {
+	color: #1fd9ee !important;
 }
 #hed .nav-name{
-    color: #000;
+    /* color: #000; */
 	font-weight:600;
 }
 #hed .nav-name:hover{
@@ -213,6 +216,9 @@
      padding-top:5rem;
 	 padding-bottom:1rem;
 	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+.web{
+	min-height: 200px;
 }
 .web:hover{
     box-shadow: 0 0 10px #39d8ea99;
